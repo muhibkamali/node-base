@@ -11,7 +11,7 @@ export const AppDataSource = new DataSource({
   name: "blog",
   synchronize: true,
   logging: false,
-  entities: ["src/entity/**/*.ts"],
+  entities: ["dist/db/entity/**/*.js"],
   migrations: [],
   subscribers: [],
 });
